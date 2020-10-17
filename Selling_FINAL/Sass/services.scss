@@ -1,0 +1,39 @@
+#services{
+    background: #F8F9FA;
+    padding: 5em 0; 
+    .sectionS-sub-title {
+        font-size: 13px;
+        color: #adb5bd;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .sectionS-title {
+        color: #000;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .unit-4-icon{
+        .icon-pie_chart{
+            font-size: 3rem;
+            color: #f16821!important;
+        }
+    }
+    .learm{
+        a{
+            transition: .3s all ease;
+            color: #f16821;
+            text-decoration: none;
+            &:hover{
+                color: #ba470c;
+            }
+        }
+
+    }
+}
+@media screen and (max-width:769px){
+    #services{
+        padding: 2.5em 0;
+
+    }
+}

@@ -1,0 +1,29 @@
+#contact{
+    padding: 5em 0;
+    background-color: #F8F9FA;
+    form{
+        .text-black{
+            color: black;
+        }
+        .btn-black {
+            border-width: 2px;
+            border-color: #000;
+            background: #000;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 900;
+            &:hover{
+                color: #000;
+    background-color: transparent;
+            }
+        }
+    }
+
+}
+@media screen and (max-width:769px){
+    #contact{
+        padding: 2.5em 0;
+
+    }
+}

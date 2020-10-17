@@ -1,0 +1,64 @@
+#special{
+    background-image: url(../images/home.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .section-sub-title{
+        font-size: 13px;
+        color: #adb5bd;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .section-title{
+        color: white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .lead{
+        font-size: 20px;
+        line-height: 1.5;
+        color: white;
+        font-weight: 300;
+    }
+    #date-countdown{
+        .countdown-block{
+            background: #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 7px;
+            color: #b3b3b3;
+            .label{
+                font-size: 40px;
+                color: #46ddb0;
+                display: block;
+            }
+        }
+    }
+    .shop_button{
+        color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+        .btn{
+        color: #fff;
+        background-color: transparent;
+        border-width: 2px;
+        border-color: #fff;
+        &:hover{
+            color: black;
+            background-color: #fff;
+        }
+        }
+    }
+}

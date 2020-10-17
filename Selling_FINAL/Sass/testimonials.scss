@@ -1,0 +1,27 @@
+#testimonials{
+    padding: 5em 0;
+    .testimonial {
+        max-width: 800px;
+        margin: 0 auto !important;
+        text-align: center;
+        img{
+            max-width: 200px;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        .textes{
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        .text-black{
+            color: black;
+        }
+    }
+}
+
+@media screen and (max-width:769px){
+    #testimonials{
+        padding: 2.5em 0;
+
+    }
+}

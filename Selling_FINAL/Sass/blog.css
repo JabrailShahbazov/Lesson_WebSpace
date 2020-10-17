@@ -1,0 +1,58 @@
+#blog {
+  padding: 5em 0;
+}
+
+#blog .section-sub-title {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#blog .section-title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#blog .postes .title {
+  font-size: 20px;
+}
+
+#blog .postes .title a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+#blog .postes .meta {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+#blog .postes .meta a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #f16821;
+}
+
+#blog .postes .meta a:hover {
+  color: #ba470c;
+}
+
+#blog .postes .read a {
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #f16821;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 769px) {
+  #blog {
+    padding: 2.5em 0;
+  }
+}
+/*# sourceMappingURL=blog.css.map */

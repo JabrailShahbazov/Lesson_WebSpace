@@ -1,0 +1,84 @@
+#aboutUs {
+  padding: 5em 0;
+}
+
+#aboutUs .experience {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  background: #46ddb0;
+  padding: 20px;
+}
+
+#aboutUs .experience .year {
+  font-weight: 900;
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: normal;
+  line-height: 1.2;
+  display: block;
+}
+
+#aboutUs .experience .caption {
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+
+#aboutUs .ection-sub-titleM {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#aboutUs .section-titleM {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#aboutUs p .btn-black {
+  border-width: 2px;
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+
+#aboutUs p .btn-black:hover {
+  color: #000;
+  background-color: transparent;
+}
+
+#aboutUs p .btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 6px 20px;
+}
+
+@media screen and (max-width: 769px) {
+  #aboutUs .experience {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  #aboutUs .experience {
+    bottom: 8px;
+    right: 9px;
+  }
+  #aboutUs .experience .year {
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #aboutUs {
+    padding: 2.5em 0;
+  }
+}
+/*# sourceMappingURL=aboutUs.css.map */

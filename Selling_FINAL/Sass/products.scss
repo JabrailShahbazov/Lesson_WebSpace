@@ -1,0 +1,121 @@
+body{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#products{
+    padding: 5em 0;
+    .section-sub-title {
+        font-size: 13px;
+        color: #adb5bd;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .section-title {
+        color: #000;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .card-body{
+        h3{
+            font-size: 18px;
+            a{
+                color: #000;
+                transition: .3s all ease;
+                text-decoration: none;
+                background-color: transparent;
+            }
+        }
+        p{
+            line-height: 1.4;
+            font-size: 13px;
+        }
+
+       .btn-black {
+        border-width: 2px;
+        border-color: #000;
+        background: #000;
+        color: #fff;
+        &:hover{
+            color: #000;
+    background-color: transparent;
+        }
+        }
+        .btn {
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 900;
+            padding: 6px 20px;
+        }
+        .btn-outline-black {
+            color: #000;
+            background-color: transparent;
+            &:hover{
+                border-color: #000;
+                background: #000;
+                color: #fff; 
+            }
+        }
+        .meta-icons-star{
+            a{
+                text-decoration: none;
+                color: gray;
+                i{
+                    color: yellow;
+                }
+            }
+        }
+        .meta-icons{
+            a{
+                text-decoration: none;
+                color: gray;
+                i{
+                    color: #e9ecef;
+                    transition: .3s all ease;
+                    &:hover{
+                        color: #f23a2e;
+                    }
+                }
+            }
+        }
+    }
+    .card{
+        img{
+            position: relative;
+            overflow: hidden;
+            &::before{
+                z-index: 2;
+                -webkit-transition: .4s all ease;
+                -o-transition: .4s all ease;
+                transition: .4s all ease;
+                -webkit-transform: scale(1.05);
+                -ms-transform: scale(1.05);
+                transform: scale(1.05);
+                position: absolute;
+                content: "";
+                border: 4px solid #f16821;
+                left: 20px;
+                right: 20px;
+                top: 20px;
+                bottom: 20px;
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+      
+    }
+    .card:hover img::before{
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+@media screen and (max-width:769px){
+    #products{
+        padding: 2.5em 0;
+    }
+}

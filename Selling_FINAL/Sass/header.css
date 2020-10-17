@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #f8f9fa !important;
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+}
+
+header .container .row .col_6 .social-media {
+  display: inline-block;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+header .container .row .col_6 .social-media .media_li {
+  display: inline-block;
+}
+
+header .container .row .col_6 .social-media .media_li a {
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #000;
+  position: relative;
+}
+
+header .container .row .col_6 .social-media .media_li a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header .container .row .col_6 .social-media .media_li :hover {
+  color: #f16821;
+  -webkit-transition: ease-in all .2s;
+  transition: ease-in all .2s;
+}
+
+header .container .row .media_a {
+  text-decoration: none;
+}
+
+header .container .row .media_a .icon-phone {
+  color: #f16821;
+}
+
+header .container .row .media_a .num {
+  color: black;
+}
+
+@media screen and (max-width: 350px) {
+  header .container .row .col_6 .social-media .media_li a {
+    width: 25px;
+    height: 25px;
+  }
+}
+/*# sourceMappingURL=header.css.map */

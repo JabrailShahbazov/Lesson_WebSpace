@@ -1,0 +1,131 @@
+body {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#products {
+  padding: 5em 0;
+}
+
+#products .section-sub-title {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#products .section-title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#products .card-body h3 {
+  font-size: 18px;
+}
+
+#products .card-body h3 a {
+  color: #000;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#products .card-body p {
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+#products .card-body .btn-black {
+  border-width: 2px;
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+
+#products .card-body .btn-black:hover {
+  color: #000;
+  background-color: transparent;
+}
+
+#products .card-body .btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 6px 20px;
+}
+
+#products .card-body .btn-outline-black {
+  color: #000;
+  background-color: transparent;
+}
+
+#products .card-body .btn-outline-black:hover {
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+
+#products .card-body .meta-icons-star a {
+  text-decoration: none;
+  color: gray;
+}
+
+#products .card-body .meta-icons-star a i {
+  color: yellow;
+}
+
+#products .card-body .meta-icons a {
+  text-decoration: none;
+  color: gray;
+}
+
+#products .card-body .meta-icons a i {
+  color: #e9ecef;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+#products .card-body .meta-icons a i:hover {
+  color: #f23a2e;
+}
+
+#products .card img {
+  position: relative;
+  overflow: hidden;
+}
+
+#products .card img::before {
+  z-index: 2;
+  -webkit-transition: .4s all ease;
+  transition: .4s all ease;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  position: absolute;
+  content: "";
+  border: 4px solid #f16821;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#products .card:hover img::before {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+@media screen and (max-width: 769px) {
+  #products {
+    padding: 2.5em 0;
+  }
+}
+/*# sourceMappingURL=products.css.map */

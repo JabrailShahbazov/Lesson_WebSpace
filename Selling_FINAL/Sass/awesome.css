@@ -1,0 +1,81 @@
+#awesome {
+  background: #F8F9FA;
+  padding: 5em 0;
+}
+
+#awesome .section-sub-titleM {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#awesome .section-titleM {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#awesome .box-white {
+  background-color: #fff !important;
+}
+
+#awesome .product-title-wrap {
+  position: relative;
+  z-index: 2;
+}
+
+#awesome .product-title-wrap .number {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #e9ecef;
+  position: absolute;
+  line-height: 0;
+  top: 40px;
+  z-index: -1;
+}
+
+#awesome .product-title-wrap .text-black {
+  color: #000 !important;
+}
+
+#awesome .product-title-wrap .price del {
+  color: #adb5bd;
+}
+
+#awesome .product-title-wrap p .btn-black {
+  border-width: 2px;
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+
+#awesome .product-title-wrap p .btn-black:hover {
+  color: #000;
+  background-color: transparent;
+}
+
+#awesome .product-title-wrap p .btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 6px 20px;
+}
+
+#awesome .product-title-wrap p .btn-outline-black {
+  color: #000;
+  background-color: transparent;
+}
+
+#awesome .product-title-wrap p .btn-outline-black:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 769px) {
+  #awesome {
+    padding: 2.5em 0;
+  }
+}
+/*# sourceMappingURL=awesome.css.map */

@@ -1,0 +1,74 @@
+#leadership {
+  padding: 5em 0;
+}
+
+#leadership .sectionM-sub-title {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#leadership .sectionM-title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#leadership .person h3 {
+  font-size: 18px;
+}
+
+#leadership .person .text-muted {
+  color: #ccc !important;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#leadership .person .ul-social-circle {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#leadership .person .ul-social-circle li:first-child {
+  margin-left: 0;
+}
+
+#leadership .person .ul-social-circle li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+#leadership .person .ul-social-circle li a {
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+#leadership .person .ul-social-circle li a i {
+  color: #fff;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  width: 30px;
+  height: 30px;
+  background: #777;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#leadership .person .ul-social-circle li a i:hover {
+  background: #2b2b2b;
+  color: #fff;
+}
+
+@media screen and (max-width: 769px) {
+  #leadership {
+    padding: 2.5em 0;
+  }
+}
+/*# sourceMappingURL=leadership.css.map */
